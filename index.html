@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Design-Mockup-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <style>
+      /* The styles were added inline because Prefixfree needs access to styles and they must be inlined if they are on local disk! */
+        .flex-container {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-flow: row wrap;
+          justify-content: space-around;
+        }
+
+        .flex-item {          
+          padding: 5px;  
+          margin-top: 5px;
+          color: white;
+          text-align: center;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+
+    <header class="grid">
+        <div class="col-1-2">
+            <img src="images/udacity.png" alt="udacity logo" class="logo" width="100px" />
+        </div>
+        <div class="col-1-2">
+            <h1 class="name">Yaoxiang Li</h1>
+            <h2 class="subname">Front-End Ninja</h4>
+        </div>        
+    </header>
+    <hr>
+    <section class="grid">
+      <img class="center" src="images/mainimage.jpg" alt="Center image" align="center">
+    </section>
+
+    <section class="grid">
+      <h3 class="featured">Featured Work</h3>
+    </section>
+
+    <section>
+    <ul class="flex-container">
+        <li class="flex-item">
+            <img class="image" src="images/appify.jpg" alt="Appify">
+            <h1 class="title">Appify</h1>
+            <p class="url">https://github.com/udacity/Appify/</p>
+        </li>
+
+        <li class="flex-item">
+            <img class="image" src="images/sunflower.jpg" alt="Sunflower">
+            <h1 class="title">Sunflower</h1>
+            <p class="url">https://github.com/udacity/Sunflower/</p>
+        </li>
+            
+        <li class="flex-item">
+            <img class="image" src="images/bokeh.jpg" alt="Bokeh">
+            <h1 class="title">Bokeh</h1>
+            <p class="url">https://github.com/udacity/Bokeh/</p>
+        </li>
+    </ul>
+    </section>
+</body>
+</html>
