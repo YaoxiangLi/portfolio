@@ -58,6 +58,7 @@ body {
 }
 
 .featured {
+  width: 30%;
   font-size: 34px;
   color: #7d97ad;
   font-weight: 300;
