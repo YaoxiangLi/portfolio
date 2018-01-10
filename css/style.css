@@ -39,8 +39,10 @@ body {
   text-align: right;
 
 }
-.center {
-  width: 100%;
+
+.image {
+  max-width: 100%;
+  height: auto;
 }
 .featured {
   width: 30%;
